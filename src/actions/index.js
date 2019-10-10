@@ -1,5 +1,5 @@
 export const ADD_PRICE = "ADD_PRICE";
-export const addItem = item => {
+export const addPrice = item => {
   return { type: ADD_PRICE, payload: item };
 };
 
