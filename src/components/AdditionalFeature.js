@@ -14,7 +14,7 @@ const AdditionalFeature = props => {
 
 const mapStateToProps = state => {
   return {
-
+    store: state.store
   };
 };
 
